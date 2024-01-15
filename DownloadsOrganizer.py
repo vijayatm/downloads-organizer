@@ -76,7 +76,7 @@ def show_notification(message):
 
 if __name__ == "__main__":
     # Replace 'path/to/download/folder' with the actual path to your download folder
-    download_folder_path = '/Users/vijay-7431/Downloads'
+    download_folder_path = 'your/download/path/here'
 
     if os.path.exists(download_folder_path):
         organize_download_folder(download_folder_path)
